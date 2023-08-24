@@ -23,7 +23,7 @@ class PlaylistsService {
         songs: songsResult.rows[0],
       },
     };
-    return result.rows;
+    return result;
   }
 }
 
